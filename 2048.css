@@ -1,0 +1,184 @@
+div.game {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 120px;
+    height: 120px;
+    
+  }
+  
+ .game-cell00 {
+   background-color: bisque;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell01 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell02 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell03 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+
+
+
+  .game-cell10 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell11 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell12 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell13 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+
+
+  .game-cell20 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell21 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell22 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell23 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+
+
+
+  .game-cell30 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell31 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell32 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  .game-cell33 {
+    background-color: bisque;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+.score_things{
+  align-content: flex-end;
+  
+}
