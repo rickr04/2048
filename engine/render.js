@@ -53,7 +53,6 @@ const set_up_new_game = function(g){
 
         switch(x.which){
             case 37: //left
-            // console.log("Left");
             g.move('left')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){          
@@ -107,7 +106,6 @@ const set_up_new_game = function(g){
             break;
             
             case 38: //up
-            // console.log("Up")
             g.move('up')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){
@@ -215,8 +213,6 @@ const set_up_new_game = function(g){
             break;
     
             case 40: //down
-            
-            // console.log("Down")
             g.move('down')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){
@@ -272,11 +268,11 @@ const set_up_new_game = function(g){
     })
 
     const handelResetPress= function(event){
-        // console.log(event.data);
+
         $('.game').empty();
-       
+       //always using a 4x4 grid
         event.data = new Game(4);
-        // console.log(event.data);
+   
         set_up_new_game(event.data);
 
         

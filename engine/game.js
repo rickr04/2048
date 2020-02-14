@@ -1,11 +1,7 @@
-// import { parse } from "./url";
 import {Grid} from "./Grid.js";
-// import { connect } from "net";
 
-/*
-Add your code for Game here
- */
-//Ok lets make a SPOOKY the gameState
+
+//Ok lets make a SPOOKY gameState
 export default class Game {
     constructor(size) {
         this.game_is_won = false;
@@ -41,10 +37,13 @@ export default class Game {
     }
     //I should prob make a logic method that combines slide and combine
     //because this is super repetitive and too much code for my move
+    //But I shall do that in a later version
+
+
+    //and to whoever said I wouldn't use linear algebra outside my Math 547 class...turns out I can :)
     move(direction) {
         switch (direction) {
             case 'down':
-                //cols
                 this.two_d_array = this.rotate_grid(this.two_d_array);
                 let past_d = Array.from(this.two_d_array);
 

@@ -5,14 +5,13 @@ keypress(process.stdin);
 
 
 /**
- * The code in this file is used to run your game in the console. Use it
- * to help develop your game engine.
+ * The code in this file is used to run your game in the console. Used to 
+ * make development easier.
  *
  */
 
 let game = new Game(4);
-console.log(game.getGameState());
-console.table(game.two_d_array);
+
 let gameState_test = {
     board: [1024,1024,2,2,0,0,0,0,0,0,0,0,0,0,0,0],
     score:0,
@@ -21,9 +20,6 @@ let gameState_test = {
     };
 
 game.loadGame(gameState_test);
-
-// console.log(game.getGameState());
-console.table(game.two_d_array);
 
 game.onMove(gameState => {
     console.log(game.toString());
