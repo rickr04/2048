@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Assignment 7</title>
+  <title>Assignment 7</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="2048.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
 
-</head>
-
-
-<body>
+  <body>
     <script src="engine/game.js" type="module"></script>
     <script src="engine/Grid.js" type="module"></script>
     <script src="engine/render.js" type="module"></script>
-    <div class= clear>
-    <section class=container>
-        <div class =conainter>
-        <div>Welcome to 2048!</div>
-        <div class = heading>Your object is to join tiles and form 2048</div>
-        <div class="game-container">
-            <div class="game">
-            
-            </div> 
+    <div class="clear">
+      <section class="container" style="display: flex; justify-content: begin">
+        <div class="conainter">
+          <div>Welcome to 2048!</div>
+          <div class="heading">Your object is to join tiles and form 2048</div>
+          <div class="game-container">
+            <div class="game"></div>
+          </div>
         </div>
+      </section>
+      <div class="score_things">
+        <button class="button is-danger">Reset</button>
+        <div>Score</div>
+        <div class="score"></div>
+        <div>Won:</div>
+        <div class="won">Not yet</div>
+        <div>Lost:</div>
+        <div class="lost">Not yet</div>
+      </div>
     </div>
-    </section>
-<div class = score_things>
-<button class='button is-danger'>Reset</button>
-<div>Score</div>
-<div class= score></div>
-<div>Won:</div>
-<div class = won>Not yet</div>
-<div>Lost:</div>
-<div class = lost>Not yet</div>
-</div>
-
-
-</div>
-
-</body>
-
+  </body>
 </html>

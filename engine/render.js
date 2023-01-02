@@ -8,39 +8,39 @@ const set_up_new_game = function(g){
     $('.lost').replaceWith('<div class=' + 'lost' + '>'+'</div>');
     for (let i =0; i<g.size; i++){
         for (let j=0; j<g.size; j++){
-            $('.game').append('<div class='+ 'game-cell'+i+j+'>' +g.two_d_array[i][j]+ '</div>');  
+            $('.game').append('<div style='+'padding-block:2.5rem; ' +  'class='+ 'game-cell'+i+j+'>' +g.two_d_array[i][j]+ '</div>');  
             if(g.two_d_array[i][j]== 2){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'blue; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'pink;' + 'padding-block:2.5rem '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 4){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 8){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange;'+ 'padding-block:2.5rem ' +  'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 16){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green;'+ 'padding-block:2.5rem ' +  'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 32){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red;'+ 'padding-block:2.5rem ' +  'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 64){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 128){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 256){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 512){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 1024){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
             if(g.two_d_array[i][j]== 2048){
-                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
             }
         }
     }
@@ -56,39 +56,39 @@ const set_up_new_game = function(g){
             g.move('left')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){          
-                    $('.game-cell' +i+j).replaceWith('<div class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                    $('.game-cell' +i+j).replaceWith('<div style='+'padding-block:2.5rem; ' + 'class=' +'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     if(g.two_d_array[i][j]== 2){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'blue; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'pink;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 4){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 8){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 16){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 32){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red;'+  'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 64){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 128){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 256){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy;'+'padding-block:2.5rem ' +  'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 512){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'silver; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'silver;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 1024){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 2048){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                 }
             }
@@ -109,40 +109,40 @@ const set_up_new_game = function(g){
             g.move('up')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){
-                    $('.game-cell' +i+j).replaceWith('<div class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                    $('.game-cell' +i+j).replaceWith('<div style='+'padding-block:2.5rem; ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                         
                     if(g.two_d_array[i][j]== 2){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'blue; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'pink;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 4){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 8){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 16){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 32){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 64){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 128){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 256){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 512){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 1024){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 2048){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                 }
             }
@@ -162,41 +162,41 @@ const set_up_new_game = function(g){
             g.move('right')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){
-                    $('.game-cell' +i+j).replaceWith('<div class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>'); 
+                    $('.game-cell' +i+j).replaceWith('<div style='+'padding-block:2.5rem; ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>'); 
                     
                         
                     if(g.two_d_array[i][j]== 2){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'blue; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'pink;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 4){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 8){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 16){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 32){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 64){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 128){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 256){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 512){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 1024){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 2048){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                 }
             }
@@ -216,40 +216,40 @@ const set_up_new_game = function(g){
             g.move('down')
             for (let i =0; i<g.size; i++){
                 for (let j=0; j<g.size; j++){
-                    $('.game-cell' +i+j).replaceWith('<div class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                    $('.game-cell' +i+j).replaceWith('<div style='+'padding-block:2.5rem; ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                        
                     if(g.two_d_array[i][j]== 2){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'blue; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'pink;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 4){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Lime;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 8){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'orange;'+'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 16){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'green;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 32){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'red;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 64){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'aqua;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 128){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'teal;'+ 'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 256){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'navy;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 512){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Silver;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 1024){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'yellow;'+  'padding-block:2.5rem ' +'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                     if(g.two_d_array[i][j]== 2048){
-                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia; '+ 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
+                        $('.game-cell' +i+j).replaceWith('<div style='+'background-color:'+ 'Fuchsia;'+ 'padding-block:2.5rem ' + 'class='+ 'game-cell'+i +j+'>' +g.two_d_array[i][j]+ '</div>');  
                     }
                 }
             }

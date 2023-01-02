@@ -180,5 +180,5 @@ div.game {
   }
 .score_things{
   align-content: flex-end;
-  
+  margin-left: 1rem;
 }
